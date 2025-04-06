@@ -19,11 +19,32 @@ header{
   margin-top: 0;
 }
 .deleteBtn{
-  background-color: red;
+  background-color: rgb(212, 255, 0);
+  padding: 5px;
+  border-radius: 5px;
 }
 .addBtn{
-  background-color: green;
+  background-color: rgb(105, 105, 203);
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
 }
 .completeBtn{
-  background-color: yellowgreen;
+  background-color: rgb(128, 162, 177);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.addBtn:hover{
+  color: aliceblue;
+  background-color: green;
+}
+.deleteBtn:hover{
+  color: aliceblue;
+  background-color: red;
+}
+
+.completeBtn:hover{
+  color: aliceblue;
+  background-color: rgb(55, 255, 0);
 }

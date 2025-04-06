@@ -3,9 +3,9 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 1rem;
-    color: #000;
+    color: white;
     width: 50rem;
-    border: 1px solid rgb(179, 54, 54);
+    border: 1px solid rgb(237, 214, 214);
     border-radius: 2px;
     
 }
@@ -35,7 +35,18 @@
 .taskBtn{
     display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
     gap: 5px;
-    margin: 20px;
+    height: 30PX;
+    padding: 10px;
+
+}
+.taskItems{
+    display: flex;
+    align-items: center;
+}
+
+button:hover{
+    cursor: pointer;
+    border: 1px solid aqua;
 }
