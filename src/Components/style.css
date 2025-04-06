@@ -1,0 +1,41 @@
+.taskItemCart{
+    background-color: rgb(43, 60, 54);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 1rem;
+    color: #000;
+    width: 50rem;
+    border: 1px solid rgb(179, 54, 54);
+    border-radius: 2px;
+    
+}
+.taskItem{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 2px;
+}
+.inputContent{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.inputName{
+    /* margin-top: 0.5rem; */
+    height: 30px;
+    width: 225px;
+}
+.checkbox{
+    display: flex;
+    gap: 2px;
+}
+.tacheId{
+    margin-top: 33px;
+}
+.taskBtn{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    gap: 5px;
+    margin: 20px;
+}

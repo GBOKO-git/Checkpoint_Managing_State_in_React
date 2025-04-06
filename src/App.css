@@ -1,0 +1,29 @@
+#root {
+  max-width: 1280px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding:0 2rem;
+  text-align: center;
+  color: white;
+  background-color: rgb(12, 12, 12);
+}
+
+body{
+  background-color: black;
+}
+footer{
+margin-top: 50vh;
+color: blueviolet;
+}
+header{
+  margin-top: 0;
+}
+.deleteBtn{
+  background-color: red;
+}
+.addBtn{
+  background-color: green;
+}
+.completeBtn{
+  background-color: yellowgreen;
+}
